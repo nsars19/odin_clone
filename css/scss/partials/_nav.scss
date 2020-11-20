@@ -4,7 +4,7 @@ $odin-font-family: 'Norse';
 [class|="nav"] {
     color: #676767;
     text-decoration: none;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.4px;
     font-size: 1em;
     font-weight: bold;
     white-space: nowrap;
@@ -17,7 +17,16 @@ $odin-font-family: 'Norse';
         font-size: 1.6em;
         color: $odin-color;
         min-width: 250px;
-        padding: 5px 0;
+        padding: 15px 0;
+        white-space: nowrap;
+
+        .logo {
+            height: 70px;
+        }
+        .logo-text {
+            padding-left: 12px;
+            font-size: 1.5em;
+        }
         a, a > * {
             grid-auto-flow: column;
             text-decoration: none;
@@ -25,6 +34,32 @@ $odin-font-family: 'Norse';
         }
         a div:hover {
             color: $odin-color;
+        }
+
+        @media (max-width: 1036px) {
+            .logo-text {
+                font-size: 1.1em;
+            }
+        }
+        @media (max-width: 992px) {
+            .logo {
+                height: 60px;
+            }
+        }
+    }
+    &-nav {
+        place-content: center;
+    }
+
+    &-menu {
+        display: none;
+        align-self: center;
+        
+        .icon {
+            height: 30px;
+            width: 30px;
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%270%200%2032%2032%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20stroke%3D%27%236abfc3%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%20stroke-miterlimit%3D%2710%27%20d%3D%27M4%208h24M4%2016h24M4%2024h24%27%2F%3E%3C%2Fsvg%3E");
+            background-position: center;
         }
     }
 
@@ -34,7 +69,9 @@ $odin-font-family: 'Norse';
 
     &-item {
         list-style: none;
-        padding: 8px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
     &-dropdown::after {
@@ -57,10 +94,21 @@ $odin-font-family: 'Norse';
         padding: 0 20px;
         width: 100%;
         z-index: 1;
+
+        &-list {
+            display: none;
+        }
+        &-menu {
+            display: block;
+        }
+        &-nav {
+            place-content: end;
+        }
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
         padding: 0px 30px 0px 30px;
+
     }
 
     padding: 0 168px;
