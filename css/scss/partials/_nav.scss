@@ -11,8 +11,6 @@ $odin-font-family: 'Norse';
 }
 
 .navbar {
-    padding: 0 30px;
-
     &-brand {
         font-family: $odin-font-family;
         font-weight: 700;
@@ -24,6 +22,9 @@ $odin-font-family: 'Norse';
             grid-auto-flow: column;
             text-decoration: none;
             color: inherit;
+        }
+        a div:hover {
+            color: $odin-color;
         }
     }
 
@@ -46,4 +47,21 @@ $odin-font-family: 'Norse';
         border-bottom: 0;
         border-left: 0.3em solid transparent;
     }
+
+    @media (max-width: 480px) {
+        padding: 0 20px;
+    }
+
+    @media (max-width: 767px) {
+        position: fixed;
+        padding: 0 20px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        padding: 0px 30px 0px 30px;
+    }
+
+    padding: 0 168px;
 }
