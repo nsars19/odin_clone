@@ -21,4 +21,17 @@
             }
         }
     }
+
+    &-tiles {
+        .tile {
+            padding: 16px;
+        }
+        .tile img {
+            height: 165px;
+        }
+        .tile h4 {
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    }
 }
