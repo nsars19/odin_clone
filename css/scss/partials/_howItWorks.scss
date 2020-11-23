@@ -1,9 +1,24 @@
 .how-it-works {
     padding-top: 60px;
-}
-.w-100 {
-    width: 100%;
-}
-.ta-c {
-    text-align: center;
+
+    &-title {
+        padding: 0 10px;
+        margin-bottom: 100px;
+
+        .title-container:first-child h2 {
+            margin-bottom: 36px;
+            white-space: nowrap;
+            font-weight: bold;
+        }
+        @media (min-width: 540px) {
+            .title-container:last-child p {
+                max-width: 540px;
+            }
+        }
+        @media (min-width: 768px) {
+            .title-container:last-child p {
+                max-width: 720px;
+            }
+        }
+    }
 }
