@@ -79,3 +79,20 @@ p {
         background-color: #6abfc3;
     }
 }
+
+// Utilities
+.ta-c {
+    text-align: center;
+}
+.gaf-r {
+    grid-auto-flow: row;
+}
+.gaf-c {
+    grid-auto-flow: column;
+}
+.fd-r {
+    flex-direction: row;
+}
+.fd-c {
+    flex-direction: column;
+}
