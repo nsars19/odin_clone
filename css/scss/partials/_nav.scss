@@ -37,8 +37,12 @@ $odin-font-family: 'Norse';
         }
 
         @media (max-width: 1036px) {
+            & {
+                padding: 5px 0;
+            }
             .logo-text {
-                font-size: 1.1em;
+                font-size: 1em;
+                padding-left: 12px;
             }
         }
         @media (max-width: 992px) {
