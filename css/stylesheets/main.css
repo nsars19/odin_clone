@@ -125,6 +125,7 @@
 }
 .header .hero-main {
   padding-bottom: 30px;
+  color: inherit;
 }
 .header .hero-secondary {
   padding: 0 5px 70px;
@@ -133,13 +134,34 @@
 .how-it-works {
   padding-top: 60px;
 }
-
-.w-100 {
-  width: 100%;
+.how-it-works-title {
+  padding: 0 10px;
+  margin-bottom: 100px;
 }
-
-.ta-c {
-  text-align: center;
+.how-it-works-title .title-container:first-child h2 {
+  margin-bottom: 36px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+@media (min-width: 540px) {
+  .how-it-works-title .title-container:last-child p {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .how-it-works-title .title-container:last-child p {
+    max-width: 720px;
+  }
+}
+.how-it-works-tiles .tile {
+  padding: 16px;
+}
+.how-it-works-tiles .tile img {
+  height: 165px;
+}
+.how-it-works-tiles .tile h4 {
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 *,
@@ -187,6 +209,12 @@ h2 {
   letter-spacing: 0.3px;
 }
 
+h4 {
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
 p {
   color: rgba(74, 74, 74, 0.7);
   font-size: 1.125rem;
@@ -211,6 +239,26 @@ p {
 }
 .btn-primary {
   background-color: #6abfc3;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.gaf-r {
+  grid-auto-flow: row;
+}
+
+.gaf-c {
+  grid-auto-flow: column;
+}
+
+.fd-r {
+  flex-direction: row;
+}
+
+.fd-c {
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=main.css.map */
