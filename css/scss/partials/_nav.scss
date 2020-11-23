@@ -11,6 +11,8 @@ $odin-font-family: 'Norse';
 }
 
 .navbar {
+    margin-bottom: 50px;
+    
     &-brand {
         font-family: $odin-font-family;
         font-weight: 700;
