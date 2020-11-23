@@ -1,0 +1,13 @@
+// Clear header from navbar at tablet breakpoint
+@media (max-width: 767px) {
+    .spacer {
+        height: 84px;
+        width: 100%;
+    }
+}
+
+.header {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #ce973e;
+}
