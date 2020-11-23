@@ -10,4 +10,14 @@
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     color: #ce973e;
+    padding-bottom: 60px;
+    
+    .hero {
+        &-main {
+            padding-bottom: 30px;
+        }
+        &-secondary {
+            padding: 0 5px 70px;
+        }
+    }
 }
