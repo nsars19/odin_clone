@@ -17,15 +17,15 @@ $odin-font-family: 'Norse';
         font-size: 1.6em;
         color: $odin-color;
         min-width: 250px;
-        padding: 15px 0;
+        padding: 12px 0;
         white-space: nowrap;
 
         .logo {
             height: 70px;
         }
         .logo-text {
-            padding-left: 12px;
-            font-size: 1.5em;
+            padding-left: 16px;
+            font-size: 1.3em;
         }
         a, a > * {
             grid-auto-flow: column;
