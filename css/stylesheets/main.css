@@ -314,6 +314,25 @@
   color: rgba(74, 74, 74, 0.7);
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .footer .brand {
+    display: none;
+  }
+  .footer .social, .footer .links {
+    grid-column: span 6;
+  }
+}
+@media (max-width: 480px) {
+  .footer .links {
+    display: none;
+  }
+  .footer .social {
+    grid-column: span 12;
+  }
+  .footer .social a {
+    padding: 0 30px;
+  }
+}
 
 *,
 ::before,
