@@ -1,0 +1,50 @@
+.success-stories {
+    background-image: linear-gradient(to bottom, #fff, #eee);
+    
+    &-title {
+        padding-top: 70px;
+    }
+
+    &-container {
+        margin: 100px auto 0;
+    }
+    .story {
+        padding-bottom: 36px;
+        margin: 0 25px;
+        max-width: 600px;
+
+        img {
+            height: 50px;
+            width: 50px;
+            margin-top: 16px;
+            margin-right: 20px;
+        }
+        .name {
+            color: #ce973e;
+        }
+    }
+    &-read-more {
+        padding-top: 30px;
+        text-decoration: underline;
+
+        a {
+            color: rgba(74, 74, 74, 0.7);
+        }
+    }
+    &-bottom {
+        padding: 80px 40px;
+        
+        h1 {
+            margin-bottom: 16px;
+            color: rgba(74,74,74,0.7);
+            font-size: 2.2em;
+            line-height: 1.5em;
+            margin: 0 auto 1rem;
+            max-width: 25em;
+        }
+        .btn {
+            margin-top: 45px;
+            padding: 16px 56px;
+        }
+    }
+}
