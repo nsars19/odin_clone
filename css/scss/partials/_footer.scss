@@ -30,4 +30,28 @@
             }
         }
     }
+
+    .social {
+        font-size: 24px;
+        color: #cc9543;
+        
+        a {
+            padding: 0 15px;
+        }
+        span {
+            color: #cc9543;
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+    &-links-container {
+        width: 130px;
+        height: 90px;
+        a {
+            color: rgba(74,74,74,0.7);
+            font-weight: bold;
+        }
+    }
 }
