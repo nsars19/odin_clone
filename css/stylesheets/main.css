@@ -217,6 +217,104 @@
   margin-top: 40px;
 }
 
+.success-stories {
+  background-image: linear-gradient(to bottom, #fff, #eee);
+}
+.success-stories-title {
+  padding-top: 70px;
+}
+.success-stories-container {
+  margin: 100px auto 0;
+}
+.success-stories .story {
+  padding-bottom: 36px;
+  margin: 0 25px;
+  max-width: 600px;
+}
+.success-stories .story img {
+  height: 50px;
+  width: 50px;
+  margin-top: 16px;
+  margin-right: 20px;
+}
+.success-stories .story .name {
+  color: #ce973e;
+}
+.success-stories-read-more {
+  padding-top: 30px;
+  text-decoration: underline;
+}
+.success-stories-read-more a {
+  color: rgba(74, 74, 74, 0.7);
+}
+.success-stories-bottom {
+  padding: 80px 40px;
+}
+.success-stories-bottom h1 {
+  margin-bottom: 16px;
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 2.2em;
+  line-height: 1.5em;
+  margin: 0 auto 1rem;
+  max-width: 25em;
+}
+.success-stories-bottom .btn {
+  margin-top: 45px;
+  padding: 16px 56px;
+}
+
+.footer {
+  min-height: 277px;
+}
+.footer .brand {
+  font-family: "Norse", sans-serif;
+}
+.footer .brand .logo {
+  height: 70px;
+}
+.footer .brand .logo-text {
+  color: #cc9543;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-left: 0.5em;
+}
+@media (max-width: 480px) {
+  .footer .brand .logo {
+    height: 60px;
+  }
+}
+@media (max-width: 992px) {
+  .footer .brand .logo {
+    height: 70px;
+  }
+}
+@media (max-width: 1036px) {
+  .footer .brand .logo-text {
+    font-size: 1.25em;
+  }
+}
+.footer .social {
+  font-size: 24px;
+  color: #cc9543;
+}
+.footer .social a {
+  padding: 0 15px;
+}
+.footer .social span {
+  color: #cc9543;
+}
+.footer .social span:hover {
+  color: #000;
+}
+.footer-links-container {
+  width: 130px;
+  height: 90px;
+}
+.footer-links-container a {
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+}
+
 *,
 ::before,
 ::after {
@@ -316,6 +414,46 @@ p {
 
 .fd-c {
   flex-direction: column;
+}
+
+.br-10 {
+  border-radius: 10%;
+}
+
+.br-20 {
+  border-radius: 20%;
+}
+
+.br-30 {
+  border-radius: 30%;
+}
+
+.br-40 {
+  border-radius: 40%;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
+.br-60 {
+  border-radius: 60%;
+}
+
+.br-70 {
+  border-radius: 70%;
+}
+
+.br-80 {
+  border-radius: 80%;
+}
+
+.br-90 {
+  border-radius: 90%;
+}
+
+.br-100 {
+  border-radius: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
