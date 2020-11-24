@@ -54,4 +54,24 @@
             font-weight: bold;
         }
     }
+
+    @media (max-width: 768px) {
+        .brand {
+            display: none;
+        }
+        .social, .links {
+            grid-column: span 6;
+        }
+    }
+    @media (max-width: 480px) {
+        .links {
+            display: none;
+        }
+        .social {
+            grid-column: span 12;
+            a {
+                padding: 0 30px;
+            }
+        }
+    }
 }
